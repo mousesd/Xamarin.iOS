@@ -1,8 +1,10 @@
 ﻿using System;
+using Foundation;
 using UIKit;
 
 namespace iOSApp3
 {
+    [Register("WaterfallCollectionView")]
     public partial class WaterfallCollectionView : UICollectionView
     {
         public WaterfallCollectionView (IntPtr handle) : base (handle) { }

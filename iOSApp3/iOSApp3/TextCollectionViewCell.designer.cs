@@ -11,8 +11,8 @@ using UIKit;
 
 namespace iOSApp3
 {
-    [Register ("TextCollecitonViewCell")]
-    partial class TextCollecitonViewCell
+    [Register ("TextCollectionViewCell")]
+    partial class TextCollectionViewCell
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]

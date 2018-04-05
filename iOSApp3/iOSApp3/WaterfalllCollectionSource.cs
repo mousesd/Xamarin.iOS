@@ -30,7 +30,7 @@ namespace iOSApp3
 
         public override UICollectionViewCell GetCell(UICollectionView collectionView, NSIndexPath indexPath)
         {
-            if (!(collectionView.DequeueReusableCell("Cell", indexPath) is TextCollecitonViewCell cell))
+            if (!(collectionView.DequeueReusableCell("Cell", indexPath) is TextCollectionViewCell cell))
                 return null;
 
             cell.Title = this.Numbers[(int)indexPath.Item].ToString();

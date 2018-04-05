@@ -65,15 +65,16 @@
     </Compile>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="TextCollecitonViewCell.cs" />
-    <Compile Include="TextCollecitonViewCell.designer.cs">
-      <DependentUpon>TextCollecitonViewCell.cs</DependentUpon>
+    <Compile Include="SecondCollectionViewController.cs" />
+    <Compile Include="SecondCollectionViewController.designer.cs">
+      <DependentUpon>SecondCollectionViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TextCollectionViewCell.cs" />
+    <Compile Include="TextCollectionViewCell.designer.cs">
+      <DependentUpon>TextCollectionViewCell.cs</DependentUpon>
     </Compile>
     <Compile Include="WaterfallCollectionDelegate.cs" />
     <Compile Include="WaterfallCollectionView.cs" />
-    <Compile Include="WaterfallCollectionView.designer.cs">
-      <DependentUpon>WaterfallCollectionView.cs</DependentUpon>
-    </Compile>
     <Compile Include="WaterfalllCollectionSource.cs" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
