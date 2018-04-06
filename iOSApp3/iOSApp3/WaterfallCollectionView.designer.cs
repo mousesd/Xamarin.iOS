@@ -24,11 +24,19 @@ namespace iOSApp3
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        iOSApp3.ThirdCollectionViewController dataSource { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         iOSApp3.FirstCollectionViewController @delegate { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
         iOSApp3.SecondCollectionViewController @delegate { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        iOSApp3.ThirdCollectionViewController @delegate { get; set; }
 
         void ReleaseDesignerOutlets ()
         {
@@ -40,6 +48,16 @@ namespace iOSApp3
             if (dataSource != null) {
                 dataSource.Dispose ();
                 dataSource = null;
+            }
+
+            if (dataSource != null) {
+                dataSource.Dispose ();
+                dataSource = null;
+            }
+
+            if (@delegate != null) {
+                @delegate.Dispose ();
+                @delegate = null;
             }
 
             if (@delegate != null) {

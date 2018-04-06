@@ -73,7 +73,12 @@
     <Compile Include="TextCollectionViewCell.designer.cs">
       <DependentUpon>TextCollectionViewCell.cs</DependentUpon>
     </Compile>
+    <Compile Include="ThirdCollectionViewController.cs" />
+    <Compile Include="ThirdCollectionViewController.designer.cs">
+      <DependentUpon>ThirdCollectionViewController.cs</DependentUpon>
+    </Compile>
     <Compile Include="WaterfallCollectionDelegate.cs" />
+    <Compile Include="WaterfallCollectionLayout.cs" />
     <Compile Include="WaterfallCollectionView.cs" />
     <Compile Include="WaterfalllCollectionSource.cs" />
     <None Include="Info.plist" />

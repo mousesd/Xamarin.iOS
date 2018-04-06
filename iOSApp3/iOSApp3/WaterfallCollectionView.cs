@@ -7,6 +7,11 @@ namespace iOSApp3
     [Register("WaterfallCollectionView")]
     public partial class WaterfallCollectionView : UICollectionView
     {
+        public new WaterfalllCollectionSource Source
+        {
+            get { return (WaterfalllCollectionSource)this.DataSource; }
+        }
+
         public WaterfallCollectionView (IntPtr handle) : base (handle) { }
 
         public override void AwakeFromNib()

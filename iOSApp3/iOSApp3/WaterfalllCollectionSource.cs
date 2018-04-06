@@ -8,14 +8,20 @@ namespace iOSApp3
 {
     public class WaterfalllCollectionSource : UICollectionViewDataSource
     {
+        private readonly Random random = new Random();
+
         public WaterfallCollectionView CollectionView { get; set; }
         public List<int> Numbers { get; set; } = new List<int>();
+        public List<nfloat> Heights { get; set; } = new List<nfloat>();
 
         public WaterfalllCollectionSource(WaterfallCollectionView collectionView)
         {
             this.CollectionView = collectionView;
-            for (int num = 0; num < 100; num++)
+            for (int num = 0; num < 100; ++num)
+            {
                 this.Numbers.Add(num);
+                this.Heights.Add(random.Next(0, 10) * 40.0f);
+            }
         }
 
         public override nint NumberOfSections(UICollectionView collectionView)
